@@ -16,11 +16,11 @@ The tool also requires YAML language support through [JSON Schemas](https://json
 ---
 
 ## __Using the Tool__
-Run the program by executing `[main file name].py`. This will pull content from the Copilot-CLI GitHub repository, and output a string with the .json string format.
+Run the program by executing `main.py`. This will pull content from the Copilot-CLI GitHub repository, and output a string with the .json string format.
 
 You can pipe this output into a file like this:
 
-> ```echo | python3 [main file name].py > copilot-schema.json```
+> ```echo | python3 main.py > copilot-schema.json```
 
 To add this schema to the YAML extension, go into the YAML extension settings and scroll to `Yaml: Schemas` and click `Edit in settings.json`
 
@@ -34,6 +34,6 @@ Now when editing a Copilot manifest, the __Copilot Manifest Schema__ will assist
 
 ---
 
-## __Important thing here asdf what do I title this__
+## __Note__
 
 A known limitation of the __Copilot Manifest Schema__ tool is that we generate the schema from the Copilot docs. As the docs are built and sustained to be a human readable source of information, they are not always consistent, and as such the schema that this tool generates may be inconsistent. Regardless, we've provided a useful tool for Copilot users, which allows you to maintain manifests without constantly moving between the Copilot docs and your IDE.
