@@ -26,6 +26,6 @@ def generate_schema(parsed_docs):
 
 # For testing purpose.
 if __name__ == "__main__":
-   f = open("./mock_input.txt", 'r') 
+   f = open("./mocks/mock_generator_input.txt", 'r') 
    realInput = f.read()
    print(generate_schema(realInput))
