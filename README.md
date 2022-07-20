@@ -21,17 +21,15 @@ Run the program by executing `main.py`. This will pull content from the Copilot-
 
 You can pipe this output into a file like this:
 
-> ```echo | python3 main.py > copilot-schema.json```
+> ```python3 main.py > copilot-schema.json```
 
-To add this schema to the YAML extension, go into the YAML extension settings and scroll to `Yaml: Schemas` and click `Edit in settings.json`
+To add this schema to the YAML extension, go into the YAML extension settings and scroll to `Yaml: Schemas` and click `Edit in settings.json`. And then add your file to the dictionary:
 
-```GIF or video here showcasing scrolling to through the extension settings```
-
-Then add your file to the dictionary:
-
-![Yaml Schemas](assets/schemas.png "YAML Schemas")
+<img src="assets/config.gif" width="492" height="280"/>
 
 Now when editing a Copilot manifest, the __Copilot Manifest Schema__ will assist you in creating your manifest!
+
+<img src="assets/demo.gif" width="492" height="280"/>
 
 ---
 
