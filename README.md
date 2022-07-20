@@ -33,6 +33,19 @@ Now when editing a Copilot manifest, the __Copilot Manifest Schema__ will assist
 
 ---
 
+### __If you encounter this exception:__
+```
+Exception: API rate limit exceeded for 54.240.196.168. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)
+```
+
+This means that you've reached the [GitHub API rate limit](https://docs.github.com/en/rest/rate-limit). To get around this, all you need to do is to generate a [GitHub Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token), and pass your GitHub username and token as arguments like this:
+
+> ```python3 main.py [username] [ghp-access-token]```
+
+Doing so will allow you to make the API request under your personal account, increasing the [GitHub API Rate Limit](https://docs.github.com/en/rest/rate-limit).
+
+---
+
 ## __Note__
 
-A known limitation of the __Copilot Manifest Schema__ tool is that we generate the schema from the Copilot docs. As the docs are built and sustained to be a human readable source of information, they are not always consistent, and as such the schema that this tool generates may be inconsistent. Regardless, we've provided a useful tool for Copilot users, which allows you to maintain manifests without constantly moving between the Copilot docs and your IDE.
+A known limitation of the __Copilot Manifest Schema__ tool is that we generate the schema from the Copilot docs. As the docs are built and sustained to be a human readable source of information, they are not always consistent, and as such the schema that this tool generates may not always be helpful. Regardless, we've provided a useful tool for Copilot users, which allows you to maintain manifests without constantly moving between the Copilot docs and your IDE.
