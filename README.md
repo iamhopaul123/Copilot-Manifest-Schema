@@ -6,7 +6,7 @@ Copilot Manifest Schema is a tool for generating json parsed outputs for yaml In
 ## __Dependencies__
 The tool requires installing the following python packages on your local machine:
 - marko
-- beautifulsoup4
+- bs4
 - html5lib
 - requests
 
