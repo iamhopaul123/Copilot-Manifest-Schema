@@ -8,6 +8,7 @@ The tool requires installing the following python packages on your local machine
 - marko
 - beautifulsoup4
 - html5lib
+- requests
 
 This can be done with `pip install`
 
