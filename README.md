@@ -25,11 +25,11 @@ You can pipe this output into a file like this:
 
 To add this schema to the YAML extension, go into the YAML extension settings and scroll to `Yaml: Schemas` and click `Edit in settings.json`. And then add your file to the dictionary:
 
-<img src="assets/config.gif" width="492" height="280"/>
+<img src="assets/config.gif" width="738" height="420"/>
 
 Now when editing a Copilot manifest, the __Copilot Manifest Schema__ will assist you in creating your manifest!
 
-<img src="assets/demo.gif" width="492" height="280"/>
+<img src="assets/demo.gif" width="738" height="420"/>
 
 ---
 
