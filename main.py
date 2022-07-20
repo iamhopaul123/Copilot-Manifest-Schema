@@ -1,4 +1,3 @@
-import json
 from doc_parser import doc_parser
 from doc_retriever import retrieve_docs
 from generator import generate_schema
