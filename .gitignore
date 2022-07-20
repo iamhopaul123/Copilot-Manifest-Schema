@@ -1,4 +1,4 @@
-*.ipynb*
-*.txt
+*.ipynb
 *.pyc
+test/
 .DS_Store
